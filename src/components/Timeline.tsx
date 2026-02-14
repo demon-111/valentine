@@ -104,7 +104,7 @@ export function Timeline() {
       <div className="text-center mb-16">
         <h2
           className="text-4xl md:text-5xl text-pink-600 mb-4"
-          style={{ fontFamily: "cursive" }}
+          style={{ fontFamily: "'Playfair Display', serif" }}
         >
           Our Journey Together
         </h2>
@@ -132,9 +132,8 @@ export function Timeline() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
-                  className={`relative flex items-center ${
-                    isLeft ? "md:flex-row" : "md:flex-row-reverse"
-                  } flex-row`}
+                  className={`relative flex items-center ${isLeft ? "md:flex-row" : "md:flex-row-reverse"
+                    } flex-row`}
                 >
                   {/* Timeline dot */}
                   <div className="absolute left-8 md:left-1/2 -ml-4 md:-ml-6 z-10">
@@ -162,7 +161,7 @@ export function Timeline() {
                       </div>
                       <h3
                         className="text-2xl text-pink-700 mb-2"
-                        style={{ fontFamily: "cursive" }}
+                        style={{ fontFamily: "'Playfair Display', serif" }}
                       >
                         {event.title}
                       </h3>

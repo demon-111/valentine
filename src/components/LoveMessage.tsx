@@ -39,7 +39,7 @@ export function LoveMessage() {
         >
           <h2
             className="text-4xl md:text-5xl text-pink-600 mb-4"
-            style={{ fontFamily: "cursive" }}
+            style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Scroll Down 💕
           </h2>
@@ -85,7 +85,7 @@ export function LoveMessage() {
           <div className="relative">
             <pre
               className="text-pink-800 whitespace-pre-wrap font-sans text-base md:text-lg leading-relaxed"
-              style={{ fontFamily: "cursive" }}
+              style={{ fontFamily: "'Playfair Display', serif" }}
             >
               {displayedText}
               {isTyping && displayedText.length < message.length && (

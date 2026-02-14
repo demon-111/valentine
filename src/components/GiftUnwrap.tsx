@@ -4,12 +4,12 @@ import { Gift, Sparkles, Heart, Lock } from "lucide-react";
 
 interface RibbonProps {
   position:
-    | "top"
-    | "right"
-    | "bottom"
-    | "left"
-    | "center-horizontal"
-    | "center-vertical";
+  | "top"
+  | "right"
+  | "bottom"
+  | "left"
+  | "center-horizontal"
+  | "center-vertical";
   onRemove: () => void;
 }
 
@@ -122,8 +122,8 @@ function Ribbon({ position, onRemove }: RibbonProps) {
           >
             <div className="text-center">
               <p
-                className="text-white text-lg md:text-xl font-bold mb-2"
-                style={{ fontFamily: "cursive" }}
+                className="text-white text-lg md:text-xl font-bold mb-2 italic"
+                style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 Click to unwrap! 🎀
               </p>
@@ -263,8 +263,8 @@ export function GiftUnwrap({ onUnwrapComplete }: GiftUnwrapProps) {
                 <Gift className="text-pink-500 mx-auto" size={100} />
               </motion.div>
               <h1
-                className="text-3xl md:text-5xl lg:text-6xl text-pink-600 mb-6 px-4"
-                style={{ fontFamily: "cursive" }}
+                className="text-3xl md:text-5xl lg:text-6xl text-pink-600 mb-6 px-4 italic"
+                style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 A little gift for the one who makes my world brighter 💝
               </h1>
@@ -296,8 +296,8 @@ export function GiftUnwrap({ onUnwrapComplete }: GiftUnwrapProps) {
                   <Lock className="text-pink-500" size={60} />
                 </motion.div>
                 <h2
-                  className="text-3xl md:text-4xl text-pink-600 mb-3"
-                  style={{ fontFamily: "cursive" }}
+                  className="text-3xl md:text-4xl text-pink-600 mb-3 italic"
+                  style={{ fontFamily: "'Playfair Display', serif" }}
                 >
                   🔐 A tiny love challenge awaits you!
                 </h2>
@@ -320,7 +320,7 @@ export function GiftUnwrap({ onUnwrapComplete }: GiftUnwrapProps) {
                     }}
                     placeholder="Enter password"
                     className="w-full px-6 py-4 text-center text-2xl border-2 border-pink-300 rounded-lg focus:outline-none focus:border-pink-500 transition-colors"
-                    style={{ fontFamily: "cursive" }}
+                    style={{ fontFamily: "'Playfair Display', serif" }}
                     autoFocus
                   />
                   <AnimatePresence>
@@ -356,7 +356,7 @@ export function GiftUnwrap({ onUnwrapComplete }: GiftUnwrapProps) {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="w-full bg-gradient-to-r from-pink-500 to-rose-500 text-white py-4 rounded-lg text-xl font-bold shadow-lg hover:shadow-xl transition-shadow"
-                  style={{ fontFamily: "cursive" }}
+                  style={{ fontFamily: "'Playfair Display', serif" }}
                 >
                   Unlock Gift 🎁
                 </motion.button>

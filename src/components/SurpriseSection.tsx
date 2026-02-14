@@ -100,7 +100,7 @@ export function SurpriseSection() {
       <div className="text-center mb-12">
         <h2
           className="text-4xl md:text-5xl text-pink-600 mb-4"
-          style={{ fontFamily: "cursive" }}
+          style={{ fontFamily: "'Playfair Display', serif" }}
         >
           A Special Surprise
         </h2>
@@ -165,7 +165,7 @@ export function SurpriseSection() {
                 repeat: Infinity,
               }}
               className="bg-gradient-to-br from-pink-500 to-rose-500 text-white px-12 py-8 rounded-full shadow-2xl text-2xl font-bold flex items-center gap-4 border-4 border-white hover:shadow-pink-300 transition-shadow"
-              style={{ fontFamily: "cursive" }}
+              style={{ fontFamily: "'Playfair Display', serif" }}
             >
               <Gift size={40} />
               Click to reveal your final surprise ✨
@@ -183,7 +183,7 @@ export function SurpriseSection() {
             <div className="text-center mb-8">
               <h3
                 className="text-3xl md:text-4xl text-pink-700 mb-3"
-                style={{ fontFamily: "cursive" }}
+                style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 💝 A Surprise Awaits You
               </h3>
@@ -210,7 +210,7 @@ export function SurpriseSection() {
                   </motion.div>
                   <p
                     className="text-2xl md:text-3xl text-pink-700 font-bold mb-4"
-                    style={{ fontFamily: "cursive" }}
+                    style={{ fontFamily: "'Playfair Display', serif" }}
                   >
                     Surprise unlocked! 🎁✨
                   </p>
@@ -318,7 +318,7 @@ export function SurpriseSection() {
               <h3 className="text-4xl text-center text-pink-700 mb-8" style={{ fontFamily: 'cursive' }}>
                 For You, My Love
               </h3>
-              
+
               <div className="space-y-6 text-pink-800 text-lg leading-relaxed" style={{ fontFamily: 'cursive' }}>
                 <p>
                   In the quiet moments of my day,<br />
