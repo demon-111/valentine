@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { Heart, Sparkles, Smile, Star, Sun, Moon } from "lucide-react";
 
 interface Reason {

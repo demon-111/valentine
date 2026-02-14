@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence } from "framer-motion";
 import { Gift, Heart, Sparkles } from "lucide-react";
 import { GiftUnwrap } from "./GiftUnwrap";
 import { LoveMessage } from "./LoveMessage";

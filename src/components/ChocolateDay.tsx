@@ -1,4 +1,4 @@
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { useNavigate } from "react-router";
 import { Candy, Heart, ArrowLeft, Home } from "lucide-react";
 

@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence } from "framer-motion";
 import { Gift, Sparkles, Heart, Mail } from "lucide-react";
 
 export function SurpriseSection() {
