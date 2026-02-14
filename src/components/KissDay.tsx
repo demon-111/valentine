@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { Heart, ArrowLeft, Home, Sparkles } from "lucide-react";
 
 export function KissDay() {

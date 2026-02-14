@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { Candy, Heart, ArrowLeft, Home } from "lucide-react";
 
 export function ChocolateDay() {

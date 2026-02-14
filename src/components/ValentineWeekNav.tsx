@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { Heart, Gift, Candy, Flower2, MessageCircleHeart, HandHeart, Sparkles } from "lucide-react";
 
 interface DayCard {
