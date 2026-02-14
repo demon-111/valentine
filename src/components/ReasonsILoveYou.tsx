@@ -40,7 +40,7 @@ export function ReasonsILoveYou() {
       transition={{ duration: 0.6 }}
     >
       <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl text-pink-600 mb-4" style={{ fontFamily: 'cursive' }}>
+        <h2 className="text-4xl md:text-5xl text-pink-600 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
           Reasons I Love You
         </h2>
         <p className="text-pink-500 text-lg italic mb-8">
@@ -81,7 +81,7 @@ export function ReasonsILoveYou() {
                   >
                     <Icon className="text-white mb-4" size={48} />
                   </motion.div>
-                  <p className="text-white text-xl font-semibold text-center" style={{ fontFamily: 'cursive' }}>
+                  <p className="text-white text-xl font-semibold text-center italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                     Reason #{reason.id}
                   </p>
                   <p className="text-white/80 text-sm mt-2">Click to reveal</p>
@@ -95,7 +95,7 @@ export function ReasonsILoveYou() {
                     transform: "rotateY(180deg)",
                   }}
                 >
-                  <p className="text-pink-700 text-lg text-center leading-relaxed" style={{ fontFamily: 'cursive' }}>
+                  <p className="text-pink-700 text-lg text-center leading-relaxed italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                     {reason.text}
                   </p>
                   <div className="absolute bottom-2 right-2">
@@ -115,7 +115,7 @@ export function ReasonsILoveYou() {
         transition={{ delay: 0.5 }}
         className="text-center mt-12"
       >
-        <p className="text-2xl text-pink-600 italic" style={{ fontFamily: 'cursive' }}>
+        <p className="text-2xl text-pink-600 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
           ...and countless more reasons I discover every single day! ❤️
         </p>
       </motion.div>

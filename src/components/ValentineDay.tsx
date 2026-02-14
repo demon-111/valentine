@@ -69,7 +69,7 @@ export function ValentineDay() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.3 }}
               className="text-6xl md:text-8xl text-red-600 mb-6"
-              style={{ fontFamily: 'cursive' }}
+              style={{ fontFamily: "'Playfair Display', serif" }}
             >
               Happy Valentine's Day!
             </motion.h1>
@@ -78,7 +78,7 @@ export function ValentineDay() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.5 }}
               className="text-3xl text-pink-700 italic mb-8"
-              style={{ fontFamily: 'cursive' }}
+              style={{ fontFamily: "'Playfair Display', serif" }}
             >
               "You make every day feel like Valentine's Day, Yatri! ❤️"
             </motion.p>
@@ -91,7 +91,7 @@ export function ValentineDay() {
             transition={{ delay: 0.7 }}
             className="bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-3xl shadow-2xl border-4 border-pink-300 max-w-3xl mx-auto"
           >
-            <div className="space-y-6 text-pink-800 text-lg md:text-xl leading-relaxed text-center" style={{ fontFamily: 'cursive' }}>
+            <div className="space-y-6 text-pink-800 text-lg md:text-xl leading-relaxed text-center italic" style={{ fontFamily: "'Playfair Display', serif" }}>
               <p>
                 Today is special because it's a day to celebrate us, our love, and all the beautiful moments we've shared together.
               </p>
@@ -123,7 +123,7 @@ export function ValentineDay() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1 }}
             className="text-center text-2xl text-red-600 mt-8 mb-12 italic"
-            style={{ fontFamily: 'cursive' }}
+            style={{ fontFamily: "'Playfair Display', serif" }}
           >
             I love you more than words can say ❤️
           </motion.p>

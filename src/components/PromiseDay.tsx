@@ -75,7 +75,7 @@ export function PromiseDay() {
           >
             <HandHeart className="text-purple-600" size={100} />
           </motion.div>
-          <h1 className="text-5xl md:text-7xl text-purple-600 mb-6" style={{ fontFamily: 'cursive' }}>
+          <h1 className="text-5xl md:text-7xl text-purple-600 mb-6 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
             Promise Day 🤝
           </h1>
           <p className="text-xl md:text-2xl text-purple-500 italic">
@@ -90,7 +90,7 @@ export function PromiseDay() {
           className="bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-2xl border-4 border-purple-300 max-w-3xl"
         >
           <div className="text-center mb-8">
-            <h2 className="text-3xl text-purple-700 mb-4" style={{ fontFamily: 'cursive' }}>
+            <h2 className="text-3xl text-purple-700 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
               My Promises to You 💝
             </h2>
             <p className="text-purple-600 italic">
@@ -113,7 +113,7 @@ export function PromiseDay() {
                     <Check className="text-white" size={16} />
                   </div>
                 </div>
-                <p className="text-purple-800 text-lg flex-1" style={{ fontFamily: 'cursive' }}>
+                <p className="text-purple-800 text-lg flex-1 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                   {promise}
                 </p>
               </motion.div>
@@ -121,7 +121,7 @@ export function PromiseDay() {
           </div>
 
           <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-xl border-2 border-purple-200 mt-8">
-            <p className="text-center text-2xl text-purple-700 mb-4" style={{ fontFamily: 'cursive' }}>
+            <p className="text-center text-2xl text-purple-700 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
               "I intend to keep every single one of these promises for the rest of my life."
             </p>
             <div className="flex justify-center gap-2 mt-6">

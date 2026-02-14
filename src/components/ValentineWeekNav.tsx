@@ -32,7 +32,7 @@ export function ValentineWeekNav() {
       transition={{ duration: 0.6 }}
     >
       <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl text-pink-600 mb-4" style={{ fontFamily: 'cursive' }}>
+        <h2 className="text-4xl md:text-5xl text-pink-600 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
           Valentine's Week Journey
         </h2>
         <p className="text-pink-500 text-lg italic">
@@ -43,7 +43,7 @@ export function ValentineWeekNav() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {valentineDays.map((day, index) => {
           const Icon = day.icon;
-          
+
           return (
             <motion.div
               key={day.path}
@@ -59,7 +59,7 @@ export function ValentineWeekNav() {
                 <div className="bg-white/30 p-4 rounded-full mb-4 backdrop-blur-sm">
                   <Icon className="text-white" size={40} />
                 </div>
-                <h3 className="text-2xl text-white mb-2" style={{ fontFamily: 'cursive' }}>
+                <h3 className="text-2xl text-white mb-2 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                   {day.title}
                 </h3>
                 <p className="text-white/90 text-sm">{day.date}</p>

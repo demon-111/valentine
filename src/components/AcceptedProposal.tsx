@@ -66,7 +66,7 @@ export function AcceptedProposal() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3 }}
             className="text-5xl md:text-7xl text-pink-600 mb-6"
-            style={{ fontFamily: 'cursive' }}
+            style={{ fontFamily: "'Playfair Display', serif" }}
           >
             I Already Knew You Love Me! 💖
           </motion.h1>
@@ -79,10 +79,10 @@ export function AcceptedProposal() {
           >
             {/* Tenor GIF */}
             <div className="mb-8 flex justify-center">
-              <iframe 
-                src="https://tenor.com/embed/16507300" 
-                width="300" 
-                height="344" 
+              <iframe
+                src="https://tenor.com/embed/16507300"
+                width="300"
+                height="344"
                 style={{ border: 'none', maxWidth: '100%' }}
                 frameBorder="0"
                 allowFullScreen
@@ -94,7 +94,7 @@ export function AcceptedProposal() {
                 Of course you said yes! How could you resist? 😄
               </p>
               <div className="bg-pink-50 p-8 rounded-xl border-2 border-pink-200 my-6">
-                <p className="text-center text-3xl mb-4" style={{ fontFamily: 'cursive' }}>
+                <p className="text-center text-3xl mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                   Thank you for choosing me, Yatri! ❤️
                 </p>
                 <p className="text-center text-xl text-pink-700">

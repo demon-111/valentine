@@ -67,7 +67,7 @@ export function KissDay() {
           >
             💋
           </motion.div>
-          <h1 className="text-5xl md:text-7xl text-red-600 mb-6" style={{ fontFamily: 'cursive' }}>
+          <h1 className="text-5xl md:text-7xl text-red-600 mb-6 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
             Kiss Day 💋
           </h1>
           <p className="text-xl md:text-2xl text-red-500 italic">
@@ -91,22 +91,22 @@ export function KissDay() {
             >
               <Sparkles className="text-red-500" size={48} />
             </motion.div>
-            <h2 className="text-3xl text-red-700 mb-4" style={{ fontFamily: 'cursive' }}>
+            <h2 className="text-3xl text-red-700 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
               Sealed with Love
             </h2>
           </div>
 
           {/* Tenor GIF */}
-          <motion.div 
+          <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.5 }}
             className="mb-8 flex justify-center"
           >
-            <iframe 
-              src="https://tenor.com/embed/21458020" 
-              width="300" 
-              height="319" 
+            <iframe
+              src="https://tenor.com/embed/21458020"
+              width="300"
+              height="319"
               style={{ border: 'none', maxWidth: '100%', borderRadius: '16px' }}
               frameBorder="0"
               allowFullScreen
@@ -130,21 +130,21 @@ export function KissDay() {
                 className="bg-gradient-to-br from-red-100 to-pink-100 p-6 rounded-lg border-2 border-red-200 text-center"
               >
                 <div className="text-4xl mb-2">😘</div>
-                <p className="text-red-700" style={{ fontFamily: 'cursive' }}>Sweet Kisses</p>
+                <p className="text-red-700 italic" style={{ fontFamily: "'Playfair Display', serif" }}>Sweet Kisses</p>
               </motion.div>
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 className="bg-gradient-to-br from-pink-100 to-red-100 p-6 rounded-lg border-2 border-red-200 text-center"
               >
                 <div className="text-4xl mb-2">💕</div>
-                <p className="text-red-700" style={{ fontFamily: 'cursive' }}>Loving Kisses</p>
+                <p className="text-red-700 italic" style={{ fontFamily: "'Playfair Display', serif" }}>Loving Kisses</p>
               </motion.div>
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 className="bg-gradient-to-br from-red-100 to-pink-100 p-6 rounded-lg border-2 border-red-200 text-center"
               >
                 <div className="text-4xl mb-2">🔥</div>
-                <p className="text-red-700" style={{ fontFamily: 'cursive' }}>Passionate Kisses</p>
+                <p className="text-red-700 italic" style={{ fontFamily: "'Playfair Display', serif" }}>Passionate Kisses</p>
               </motion.div>
             </div>
 
@@ -167,7 +167,7 @@ export function KissDay() {
                 >
                   💋
                 </motion.div>
-                <p className="text-center text-2xl text-red-700 mb-4" style={{ fontFamily: 'cursive' }}>
+                <p className="text-center text-2xl text-red-700 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                   "Sending you a thousand kisses through this message!"
                 </p>
                 <p className="text-center text-red-600 italic">

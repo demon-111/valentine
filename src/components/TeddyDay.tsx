@@ -64,7 +64,7 @@ export function TeddyDay() {
           >
             🧸
           </motion.div>
-          <h1 className="text-5xl md:text-7xl text-pink-600 mb-6" style={{ fontFamily: 'cursive' }}>
+          <h1 className="text-5xl md:text-7xl text-pink-600 mb-6 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
             Teddy Day 🧸
           </h1>
           <p className="text-xl md:text-2xl text-pink-500 italic">
@@ -79,22 +79,22 @@ export function TeddyDay() {
           className="bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-2xl border-4 border-pink-300 max-w-2xl"
         >
           <div className="text-center mb-8">
-            <h2 className="text-3xl text-pink-700 mb-6" style={{ fontFamily: 'cursive' }}>
+            <h2 className="text-3xl text-pink-700 mb-6 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
               A Cuddle for Baby
             </h2>
           </div>
 
           {/* Tenor GIF */}
-          <motion.div 
+          <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.5 }}
             className="mb-8 flex justify-center"
           >
-            <iframe 
-              src="https://tenor.com/embed/9177323695663858864" 
-              width="300" 
-              height="414" 
+            <iframe
+              src="https://tenor.com/embed/9177323695663858864"
+              width="300"
+              height="414"
               style={{ border: 'none', maxWidth: '100%', borderRadius: '16px' }}
               frameBorder="0"
               allowFullScreen
@@ -113,7 +113,7 @@ export function TeddyDay() {
             </p>
 
             <div className="bg-pink-50 p-8 rounded-xl border-2 border-pink-200 mt-6">
-              <p className="text-center text-2xl text-pink-700 mb-4" style={{ fontFamily: 'cursive' }}>
+              <p className="text-center text-2xl text-pink-700 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                 "I wish I could give you a hug right now and never let go!"
               </p>
               <div className="text-center text-6xl">

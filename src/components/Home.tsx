@@ -220,7 +220,7 @@ export function Home() {
               >
                 <Gift className="text-pink-500" size={48} />
               </motion.div>
-              <h1 className="text-5xl md:text-7xl mb-4 text-pink-600" style={{ fontFamily: 'cursive' }}>
+              <h1 className="text-5xl md:text-7xl mb-4 text-pink-600 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                 For My Love Yatri 💝
               </h1>
               <p className="text-xl text-pink-500/80 max-w-2xl mx-auto italic">

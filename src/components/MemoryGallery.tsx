@@ -20,7 +20,7 @@ export function MemoryGallery() {
       transition={{ duration: 0.6 }}
     >
       <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl text-pink-600 mb-4" style={{ fontFamily: 'cursive' }}>
+        <h2 className="text-4xl md:text-5xl text-pink-600 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
           Our Beautiful Memories
         </h2>
       </div>

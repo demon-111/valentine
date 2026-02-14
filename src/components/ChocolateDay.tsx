@@ -75,7 +75,7 @@ export function ChocolateDay() {
           >
             <Candy className="text-amber-700" size={100} />
           </motion.div>
-          <h1 className="text-5xl md:text-7xl text-amber-800 mb-6" style={{ fontFamily: 'cursive' }}>
+          <h1 className="text-5xl md:text-7xl text-amber-800 mb-6 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
             Chocolate Day 🍫
           </h1>
           <p className="text-xl md:text-2xl text-amber-700 italic">
@@ -91,7 +91,7 @@ export function ChocolateDay() {
         >
           <div className="text-center mb-8">
             <div className="text-6xl mb-4">🍫</div>
-            <h2 className="text-3xl text-amber-800 mb-4" style={{ fontFamily: 'cursive' }}>
+            <h2 className="text-3xl text-amber-800 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
               Sweet Messages for Baby
             </h2>
           </div>
@@ -106,7 +106,7 @@ export function ChocolateDay() {
                 whileHover={{ scale: 1.05, x: 10 }}
                 className="bg-gradient-to-r from-amber-100 to-orange-100 p-4 rounded-lg border-2 border-amber-300 shadow-md"
               >
-                <p className="text-amber-900 text-lg text-center" style={{ fontFamily: 'cursive' }}>
+                <p className="text-amber-900 text-lg text-center italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                   {message}
                 </p>
               </motion.div>
@@ -114,7 +114,7 @@ export function ChocolateDay() {
           </div>
 
           <div className="bg-amber-50 p-8 rounded-xl border-2 border-amber-200 mt-6">
-            <p className="text-center text-2xl text-amber-800 mb-4" style={{ fontFamily: 'cursive' }}>
+            <p className="text-center text-2xl text-amber-800 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
               "Life without you would be like chocolate without sweetness - absolutely unimaginable, baby!"
             </p>
             <div className="flex justify-center gap-2 mt-4">

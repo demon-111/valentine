@@ -63,7 +63,7 @@ export function HugDay() {
           >
             🤗
           </motion.div>
-          <h1 className="text-5xl md:text-7xl text-rose-600 mb-6" style={{ fontFamily: 'cursive' }}>
+          <h1 className="text-5xl md:text-7xl text-rose-600 mb-6 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
             Hug Day 🤗
           </h1>
           <p className="text-xl md:text-2xl text-rose-500 italic">
@@ -82,24 +82,24 @@ export function HugDay() {
               animate={{ scale: [1, 1.1, 1] }}
               transition={{ duration: 2, repeat: Infinity }}
             >
-              <h2 className="text-3xl text-rose-700 mb-4" style={{ fontFamily: 'cursive' }}>
+              <h2 className="text-3xl text-rose-700 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                 Wrapped in Your Love, Baby 🤗
               </h2>
             </motion.div>
           </div>
 
           {/* Tenor GIF */}
-          <motion.div 
+          <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.5 }}
             className="mb-8 flex justify-center"
           >
             <div className="relative">
-              <iframe 
-                src="https://tenor.com/embed/22343397" 
-                width="300" 
-                height="300" 
+              <iframe
+                src="https://tenor.com/embed/22343397"
+                width="300"
+                height="300"
                 style={{ border: 'none', maxWidth: '100%', borderRadius: '16px' }}
                 frameBorder="0"
                 allowFullScreen
@@ -113,7 +113,7 @@ export function HugDay() {
           </motion.div>
 
           <div className="space-y-6 text-rose-800 text-lg leading-relaxed">
-            <motion.div 
+            <motion.div
               whileHover={{ scale: 1.05 }}
               className="bg-rose-50 p-6 rounded-xl border-2 border-rose-200 shadow-md"
             >
@@ -136,7 +136,7 @@ export function HugDay() {
               >
                 🫂
               </motion.div>
-              <p className="text-center text-2xl text-rose-700 mb-4" style={{ fontFamily: 'cursive' }}>
+              <p className="text-center text-2xl text-rose-700 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                 "I'm sending you a virtual hug that wraps around you with all my love!"
               </p>
               <p className="text-center text-rose-600 italic">

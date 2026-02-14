@@ -87,7 +87,7 @@ export function RoseDay() {
           transition={{ delay: 0.5 }}
           className="text-center max-w-3xl"
         >
-          <h1 className="text-5xl md:text-7xl text-red-600 mb-6" style={{ fontFamily: 'cursive' }}>
+          <h1 className="text-5xl md:text-7xl text-red-600 mb-6 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
             Rose Day 🌹
           </h1>
           <p className="text-xl md:text-2xl text-red-500 mb-4 italic">
@@ -109,17 +109,17 @@ export function RoseDay() {
             >
               <div className="text-6xl mb-4">💐</div>
             </motion.div>
-            <h2 className="text-3xl text-red-700 mb-4" style={{ fontFamily: 'cursive' }}>
+            <h2 className="text-3xl text-red-700 mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
               A Bouquet of Love
             </h2>
           </div>
 
           {/* Tenor GIF */}
           <div className="mb-8 flex justify-center">
-            <iframe 
-              src="https://tenor.com/embed/3346386468613198472" 
-              width="300" 
-              height="300" 
+            <iframe
+              src="https://tenor.com/embed/3346386468613198472"
+              width="300"
+              height="300"
               style={{ border: 'none', maxWidth: '100%', borderRadius: '16px' }}
               frameBorder="0"
               allowFullScreen
@@ -134,7 +134,7 @@ export function RoseDay() {
               Every petal represents a moment we've shared, every thorn a challenge we've overcome together, and every fragrance a memory that makes my heart smile.
             </p>
             <div className="bg-red-50 p-6 rounded-lg border-2 border-red-200 mt-6">
-              <p className="text-center text-2xl" style={{ fontFamily: 'cursive' }}>
+              <p className="text-center text-2xl italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                 "If I had a rose for every time I thought of you, I'd be walking through my garden forever, baby." 🌹
               </p>
             </div>

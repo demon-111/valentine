@@ -58,7 +58,7 @@ export function ProposeDay() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center max-w-3xl mb-12"
         >
-          <h1 className="text-5xl md:text-7xl text-pink-600 mb-6" style={{ fontFamily: 'cursive' }}>
+          <h1 className="text-5xl md:text-7xl text-pink-600 mb-6 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
             Propose Day 💍
           </h1>
           <p className="text-xl md:text-2xl text-pink-500 italic">
@@ -83,7 +83,7 @@ export function ProposeDay() {
                 y: { duration: 2, repeat: Infinity },
               }}
               className="bg-gradient-to-br from-pink-500 to-rose-500 text-white px-16 py-10 rounded-full shadow-2xl text-3xl font-bold border-4 border-white"
-              style={{ fontFamily: 'cursive' }}
+              style={{ fontFamily: "'Playfair Display', serif" }}
             >
               Open the Ring Box 💝
             </motion.button>
@@ -127,16 +127,16 @@ export function ProposeDay() {
               transition={{ delay: 0.5 }}
               className="bg-white/90 backdrop-blur-sm p-10 rounded-2xl shadow-2xl border-4 border-pink-300"
             >
-              <h2 className="text-4xl text-pink-700 mb-8 text-center" style={{ fontFamily: 'cursive' }}>
+              <h2 className="text-4xl text-pink-700 mb-8 text-center italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                 Yatri, Will You Be Mine Forever? 💕
               </h2>
 
               {/* Tenor GIF */}
               <div className="mb-8 flex justify-center">
-                <iframe 
-                  src="https://tenor.com/embed/15531717477912991370" 
-                  width="300" 
-                  height="300" 
+                <iframe
+                  src="https://tenor.com/embed/15531717477912991370"
+                  width="300"
+                  height="300"
                   style={{ border: 'none', maxWidth: '100%' }}
                   frameBorder="0"
                   allowFullScreen
@@ -151,10 +151,10 @@ export function ProposeDay() {
                   You make me laugh when I want to cry, you lift me up when I'm down, and you love me in ways I never knew were possible.
                 </p>
                 <div className="bg-pink-50 p-8 rounded-xl border-2 border-pink-200 my-6">
-                  <p className="text-center text-2xl mb-4" style={{ fontFamily: 'cursive' }}>
+                  <p className="text-center text-2xl mb-4 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                     I want to wake up next to you every morning, hold your hand through every adventure, and grow old with you.
                   </p>
-                  <p className="text-center text-3xl text-pink-600" style={{ fontFamily: 'cursive' }}>
+                  <p className="text-center text-3xl text-pink-600 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                     Be mine, today and always? 💍
                   </p>
                 </div>
@@ -185,7 +185,7 @@ export function ProposeDay() {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                   className={swapButtons ? "bg-gray-300 text-gray-700 px-12 py-4 rounded-full text-2xl font-bold shadow-lg" : "bg-gradient-to-r from-pink-500 to-rose-500 text-white px-12 py-4 rounded-full text-2xl font-bold shadow-lg"}
-                  style={{ fontFamily: 'cursive' }}
+                  style={{ fontFamily: "'Playfair Display', serif" }}
                 >
                   {swapButtons ? "No" : "Yes! 💕"}
                 </motion.button>
@@ -198,7 +198,7 @@ export function ProposeDay() {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                   className={swapButtons ? "bg-gradient-to-r from-pink-500 to-rose-500 text-white px-12 py-4 rounded-full text-2xl font-bold shadow-lg" : "bg-gray-300 text-gray-700 px-12 py-4 rounded-full text-2xl font-bold shadow-lg"}
-                  style={{ fontFamily: 'cursive' }}
+                  style={{ fontFamily: "'Playfair Display', serif" }}
                 >
                   {swapButtons ? "Yes! 💕" : "No"}
                 </motion.button>

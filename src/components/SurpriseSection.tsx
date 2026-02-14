@@ -37,7 +37,7 @@ export function SurpriseSection() {
 
       // Add text
       ctx.fillStyle = "white";
-      ctx.font = "bold 24px cursive";
+      ctx.font = "bold 24px 'Playfair Display'";
       ctx.textAlign = "center";
       ctx.fillText("Scratch Here ✨", canvas.width / 2, canvas.height / 2);
     }
@@ -291,7 +291,7 @@ export function SurpriseSection() {
                 <Heart className="text-red-500 fill-red-500" size={40} />
               </motion.div>
             </motion.div>
-            <p className="mt-6 text-pink-600 text-2xl italic" style={{ fontFamily: 'cursive' }}>
+            <p className="mt-6 text-pink-600 text-2xl italic" style={{ fontFamily: "'Playfair Display', serif" }}>
               Click to open your love letter 💌
             </p>
           </motion.div>
@@ -315,11 +315,11 @@ export function SurpriseSection() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.3 }}
             >
-              <h3 className="text-4xl text-center text-pink-700 mb-8" style={{ fontFamily: 'cursive' }}>
+              <h3 className="text-4xl text-center text-pink-700 mb-8 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                 For You, My Love
               </h3>
 
-              <div className="space-y-6 text-pink-800 text-lg leading-relaxed" style={{ fontFamily: 'cursive' }}>
+              <div className="space-y-6 text-pink-800 text-lg leading-relaxed italic" style={{ fontFamily: "'Playfair Display', serif" }}>
                 <p>
                   In the quiet moments of my day,<br />
                   my thoughts somehow find their way to you.<br />
